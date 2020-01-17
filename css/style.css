@@ -1,6 +1,13 @@
 #navbar {
+    top: 0;
+    position: fixed;
     display: flex;
-    justify-content: center;
+}
+
+#footer {
+    bottom: 0;
+    position: fixed;
+    display: flex;
 }
 
 #logo {
@@ -8,4 +15,20 @@
     top: 25%;
     left: 50%;
     margin: 2px 0 0 -136px;
+}
+
+#search {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    justify-content: center;
+    margin: 0 0 0 -115px;
+}
+
+#searchbuttons {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    justify-content: center;
+    margin: 0 0 0 -120px;
 }
