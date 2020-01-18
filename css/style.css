@@ -25,12 +25,18 @@ li {
 
 #search {
     position: absolute;
+    background: transparent;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: 1px 1px 1px 1px rgba(211,211,211,1);
+    border-radius: 24px;
+    z-index: 3;
     top: 42%;
-    left: 50%;
-    background-color: transparent;
-    border: none;
-    justify-content: center;
+    left: 37%;
+    height: 44px;
+    width: 582px;
     margin: 0 0 0 -115px;
+    justify-content: center;
 }
 
 #searchbuttons {
