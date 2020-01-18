@@ -1,3 +1,22 @@
+a:link {
+    text-decoration: none;
+    color: #000;
+}
+
+#footer a{
+    color: #5f6368;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
 #navbar {
     background-color: transparent;
 }
