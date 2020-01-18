@@ -21,14 +21,19 @@
     position: absolute;
     top: 42%;
     left: 50%;
+    background-color: transparent;
+    border: none;
     justify-content: center;
     margin: 0 0 0 -115px;
 }
 
 #searchbuttons {
     position: absolute;
+    color: #5f6368;
+    border: 1px;
+    border-radius: 4px;
     top: 52%;
     left: 50%;
     justify-content: center;
-    margin: 0 0 0 -120px;
+    margin: 0 0 0 -150px;
 }
