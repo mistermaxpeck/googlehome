@@ -25,7 +25,7 @@ li {
     display: inline;
     padding: 10px;
     font-family: arial;
-    font-size: 10pt;
+    font-size: 9pt;
 }
 
 #footer {
@@ -50,7 +50,7 @@ li {
     box-shadow: 1px 1px 1px 1px rgba(211,211,211,1);
     border-radius: 24px;
     z-index: 3;
-    top: 42%;
+    top: 45%;
     left: 37%;
     height: 44px;
     width: 582px;
@@ -60,11 +60,28 @@ li {
 
 #searchbuttons {
     position: absolute;
-    color: #5f6368;
-    border: 1px;
-    border-radius: 4px;
-    top: 52%;
+    top: 56%;
     left: 50%;
     justify-content: center;
     margin: 0 0 0 -150px;
+}
+
+.button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5f6368;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+}
+
+.button:hover {
+    border: 1px solid #c6c6c6;
+    color: #222;
 }
